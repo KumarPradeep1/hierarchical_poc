@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Vertical Tree Example</title>
+
+    <style>
+      body{
+            background:#aae;
+        }
+        .node {
+            cursor: pointer;
+        }
+
+            .node circle {
+                /*fill: #fff;
+                stroke: steelblue;*/
+                stroke-width: 3px;
+            }
+
+            .node text {
+                font: 12px sans-serif;
+                fill: #fff;
+            }
+
+        .link {
+            fill: none;
+            stroke: #ccc;
+            stroke-width: 2px;
+        }
+
+        .tree {
+            margin-bottom: 10px;
+            overflow: auto;
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <div id="tree">
+
+    </div>
+
+    <script type = "text/javascript" src = "./js/vertical_tree.js"></script>
+
+  </body>
+</html>
